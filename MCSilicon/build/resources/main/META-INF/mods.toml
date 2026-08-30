@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "mcsilicon"
+version = "0.1.0"
+displayName = "MCSilicon"
+description = '''
+독자적인 디지털 신호(레드스톤 아님)와 칩 DSL 컴파일을 이용한 반도체 회로 모드
+'''
+
+[[dependencies.mcsilicon]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[52.0.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.mcsilicon]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.21.1,)"
+    ordering = "NONE"
+    side = "BOTH"

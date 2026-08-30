@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mcsilicon:block/chip" },
+    "facing=east":  { "model": "mcsilicon:block/chip", "y": 90 },
+    "facing=south": { "model": "mcsilicon:block/chip", "y": 180 },
+    "facing=west":  { "model": "mcsilicon:block/chip", "y": 270 }
+  }
+}
