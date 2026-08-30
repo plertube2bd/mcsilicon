@@ -9,6 +9,11 @@ Minecraft/Forge 의존이 없는 `dsl` 코어만 떼어낸 독립 테스트 하�
 
 ---
 
+## 빠르게 시작하기 (리눅스를 위한 빌드 스크립트)
+`$ git clone https://github.com/plertube2bd/mcsilicon`
+`$ cd mcsilicon/project/`
+`$ bash build.sh`
+
 ## 0. 버전 변경 이력
 
 언어가 여러 차례 크게 바뀌었다. 최신 사양만 알면 되는 경우 1절부터 읽으면 되고,
